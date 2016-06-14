@@ -1,5 +1,5 @@
 {
-	"name": "Learning React",
+	"name": "LearningReact",
 	"version": "1.0.0",
 	"description": "Exercises to follow up pluralsight's course",
 	"author": "Bruno Avelar",
@@ -66,6 +66,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/coryhouse/pluralsight-redux-starter"
+		"url": "https://github.com/brunoavelar/LearningReactRedux"
 	}
 }
