@@ -1,8 +1,16 @@
 {
-  "presets": ["react", "es2015"],
-  "env": {
-    "development": {
-      "presets": ["react-hmre"]
+    "presets": ["react", "es2015"],
+    "plugins": [
+        ["module-alias", [
+            { "src": "./src/components", "expose": "components" },
+            { "src": "./src/actions", "expose": "actions" },
+            { "src": "./src/reducers", "expose": "reducers" },
+            { "src": "./src/selectors/selectors.js", "expose": "selectors" }]
+        ]
+    ],
+    "env": {
+        "development": {
+            "presets": ["react-hmre"]
+        }
     }
-  }
 }

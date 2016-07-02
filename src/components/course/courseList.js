@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import CourseListRow from './courseListRow';
+import CourseListRow from './CourseListRow';
 
 const CourseList = ({courses}) => {
 	return(
